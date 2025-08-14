@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<link rel="stylesheet" href="./style/reset.css" />
+<link rel="stylesheet" href="./style/index.css" />
+</head>
+
+<body>
+<div class="modal" id="contactModal" aria-hidden="true">
+  <div class="modal__backdrop"></div>
+
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" type="button" aria-label="Закрити">
+      <img src="./JPGPNG/123.svg" alt="">
+    </button>
+
+    <!-- левая колонка с оверлеем + пунктир внутри неё -->
+    <div class="modal__mask">
+      <span class="modal__dash" aria-hidden="true"></span>
+    </div>
+
+    <form class="modal__form">
+      <div class="modal__group">
+        <label class="modal__label" id="modalTitle">ВАШЕ ІМ’Я</label>
+        <input class="modal__input" type="text" placeholder="Введіть Ваше повне ім’я">
+      </div>
+
+      <div class="modal__group">
+        <label class="modal__label">ТЕЛЕФОН / E-MAIL</label>
+        <input class="modal__input" type="text" placeholder="Введіть Ваш номер телефона або e-mail">
+      </div>
+
+      <div class="modal__group">
+        <label class="modal__label">ПОВІДОМЛЕННЯ</label>
+        <textarea class="modal__input modal__input--area" placeholder="Введіть Ваше питання або пропозицію..."></textarea>
+      </div>
+
+      <button class="modal__btn" type="button">НАДІСЛАТИ</button>
+    </form>
+  </div>
+</div>
+
+<div class="wrapper">
+<header class="header">
+<div class="logo">
+    <img src="./JPGPNG/logochic.svg" alt="CHIC_Clothing_Industry">
+</div>
+
+    <nav class="nav">
+        <a href="#">Хто ми</a>
+        <a href="#">Послуги</a>
+        <a href="#">Умови</a>
+        <a href="#">Ціни</a>
+        <a href="#">Контакти</a>
+    </nav>
+
+    <div class="lang-switch">
+        <img src="./JPGPNG/ua_lang.png" alt="ua_lang">
+    </div>
+</header>
+
+<main class="main">
+    <div class="overlay-rect-top"></div>
+    <div class="overlay-rect-left"></div>
+    <div class="overlay-rect-left-vector"></div>
+    <div class="overlay-rect-right"></div>
+
+<section class="overlay-rect-bottom-vector">
+    <div class="main-content">
+        <div class="main-text">
+            <h2 class="hero-title">
+                <span class="hero-line1">Ваша ідея&nbsp;—</span><br>
+                <span class="hero-line2">наше швейне мистецтво</span>
+            </h2>
+        </div>
+
+        <div class="main-button">
+        <img src="./JPGPNG/Call_button.svg" alt="Замовити дзвінок">
+        </div>
+    </div>
+</section>
+
+<section class="overlay-rect-bottom">
+    <div class="overlay-bottom-text">
+        <p>Повний цикл виробництва для брендів, що прагнуть якості.</p>
+        <p>Ми шиємо колекції, які повертають клієнтів.</p>
+        <p>Дотримуємось дедлайнів.</p>
+        <p>Перетворюємо ваші ескізи на реальні речі, якими захоплюються.</p>
+    </div>
+</section>
+</main>
+
+<section class="undermain">
+    <div class="undermaininfo">
+        <div class="underimg"></div>
+
+        <div class="undertext">
+            <h3>Хто ми ?</h3>
+            <p>Ми — сучасне швейне виробництво повного циклу, яке допомагає брендам втілювати ідеї в реальність.</p>
+            <p>Ми знаємо, що таке якість, розуміємо важливість дедлайнів і вміємо шити так, щоб ваші клієнти поверталися за новими колекціями.</p>
+            <p>Ми працюємо з середніми та легкими тканинами (трикотаж, шовк, льон та інші). Від створення лекал до готового виробу — контролюємо кожен етап, щоб забезпечити бездоганну якість.</p>
+            <p>Ми не просто шиємо — ми допомагаємо брендам розповісти свою історію через тканину, крій та якість.</p>
+            <p>Наше виробництво спеціалізується на оптовому пошитті для українського та європейського ринку, забезпечуючи якість, швидкість та гнучкість у виконанні замовлень.</p>
+            <p>Ми про якість, увагу до деталей та сучасні технології.</p>
+
+        <h3>Про що ми?</h3>
+            <ul>
+                <li>Про те, що кожен бренд заслуговує на якісний пошив.</li>
+                <li>Про те, що речі повинні виглядати ідеально не тільки на фото, а й у реальному житті.</li>
+                <li>Про те, що кожна річ повинна бути не просто красивою, а довговічною та комфортною.</li>
+                <li>Про те, що ідеальний крій — це не міф.</li>
+                <li>Про те, що дедлайни — це свято, а контроль якості — не пусті слова.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="blackcontent">
+    <div class="inter-blackcontent">
+        <div class="top-bl-content">
+            <h2 class="top-bl-title">Що ми пропонуємо?</h2>
+            <ul class="top-bl-list">
+                <li>Розробка лекал та градація (розширення) розмірів-щоб ваш виріб сидів як треба.</li>
+                <li>Шиємо зразки (прототипи) для затвердження моделі.</li>
+                <li>Виконуємо розкрій тканини.</li>
+                <li>Оптовий пошив — без нервів і з чітким дотриманням ТЗ.</li>
+                <li>Професійно шиємо вироби будь-якої складності.</li>
+                <li>Контролюємо якість на всіх етапах виробництва.</li>
+            </ul>
+        </div>
+    <section class="why-us">
+    <div class="why-us-container">
+        <div class="why-us-image">
+            <img src="./JPGPNG/maneken.png" alt="Манекен">
+        </div>
+
+        <div class="why-us-text-block">
+            <h2 class="why-us-title">Чому обирають<br>саме нас?</h2>
+        </div>
+        
+        <div class="why-us-text">
+            <p>Ми знаємо, що таке якість, розуміємо важливість дедлайнів і вміємо шити так, щоб ваші клієнти поверталися за новими колекціями.</p>
+            <ul>
+                <li>Висока якість пошиття</li>
+                <li>Гнучкі умови співпраці — працюємо як з малими так і з великими партіями</li>
+                <li>Сучасне обладнання та досвідчена команда професіоналів</li>
+                <li>Доставка по Україні, Європі</li>
+            </ul>
+            <p>Зв’яжіться з нами — і ми допоможемо створити ідеальний продукт для вашого бренду!</p>
+        </div>
+
+        <div class="why-us-button">
+            <img src="./JPGPNG/Call_button.svg" alt="Замовити дзвінок">
+        </div>
+        
+    </div>
+    </section>
+    </div>
+
+</section>
+
+<section class="workinfo">
+<div class="workinfo-title">
+    <h2>Умови співпраці</h2>
+</div>
+
+<div class="workinfo-container">
+        <div class="workinfo-image-wrapper">
+            <img src="./JPGPNG/workinfo_img.png" alt="workinfo_image" class="workinfo-img">
+            <img src="./JPGPNG/workinfo_img.png" alt="workinfo_image" class="workinfo-img-large">
+        </div>
+
+<ul class="workinfo-tabs">
+<li class="tab-item tab-item-1">
+    <span class="arrow">
+        <img src="./JPGPNG/work_logov.svg" alt="arrow icon" />
+    </span>
+    <span class="tab-text">Оплата та умови співпраці</span>
+</li>
+<div class="tab-content">
+    <p>Ми цінуємо наших партнерів і гарантуємо високу якість пошиття. Проте, якщо під час виробництва виникають непередбачені ситуації, ми пропонуємо прозорі умови співпраці:</p>
+    <div class="tab-first-container">
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Передоплата <strong>50%</strong> перед початком роботи, решта – після завершення пошиття.</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Мінімальне замовлення обговорюється <strong>індивідуально</strong>.</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Доставка по Україні, Європі <strong>(оплачується окремо)</strong>.</p>
+    </div>
+
+    
+    <p>Ми відкриті до надійного та довгострокового партнерства! Для зручності та прозорості взаємодії ми можемо укласти <strong>офіційний договір</strong> між сторонами, що забезпечить:</p>
+    <div class="tab-first-container">
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow" /> Чітке визначення умов замовлення(терміни, обсяги, матеріали).</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow" /> Гарантії виконання зобов’язань.</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow" /> Юридичний захист обох сторін.</p>
+    </div>
+    <p>Зв’яжіться з нами, щоб отримати розрахунок вартості та обговорити деталі!</p>
+</div>
+
+<li class="tab-item tab-item-2">
+    <span class="arrow">
+        <img src="./JPGPNG/work_logov.svg" alt="arrow icon" />
+    </span>
+    <span class="tab-text">Умови співпраці при виявленні браку тканини або пошитого одягу</span>
+</li>
+<div class="tab-content">
+    <div class="tab-second-container">
+    <p>Ми ретельно перевіряємо матеріали перед виробництвом, але можливі випадки, коли дефект тканини виявляється вже на готовому виробі. У таких ситуаціях:</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> <strong>Ми не несемо</strong> відповідальності за приховані дефекти тканини, які не були помітні до пошиття.</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Замовник оплачує вартість <strong>виконаної</strong> роботи, оскільки пошиття здійснене відповідно до узгоджених вимог.</p>
+    <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> За бажанням замовника можливий повторний пошив за <strong>додаткову оплату</strong> або коригування виробу, якщо це можливо.</p>
+    </div>
+    <p>Щоб уникнути подібних ситуацій, ми рекомендуємо попередньо перевіряти тканину перед передачею в роботу.</p>
+</div>
+
+<li class="tab-item tab-item-3">
+    <span class="arrow">
+        <img src="./JPGPNG/work_logov.svg" alt="arrow icon" />
+    </span>
+    <span class="tab-text">Брак тканини</span>
+</li>
+<div class="tab-content">
+    <div class="tab-third-container">
+        <p>Перед початком роботи ми проводимо ретельний огляд тканини. <br>Якщо брак виявлено <strong>до розкрою</strong>, клієнт може замінити тканину або узгодити подальші дії.</p>
+        <p>Якщо тканина була надана замовником і має приховані дефекти, <strong>відповідальність за неї несе постачальник тканини</strong>.</p>
+        <p>Замовник може надати свою тканину або скористатися нашою допомогою в її підборі.</p>
+        <p>Ми <strong>не несемо</strong> відповідальності за дефекти тканини, наданої замовником, але перед початком роботи повідомляємо про виявлені недоліки.</p>
+        <p>Контроль якості здійснюється <strong>на всіх етапах</strong> пошиття. Якщо виробничий брак виник з нашої вини, ми <strong>гарантуємо переробку</strong> або <strong>компенсацію</strong>.</p>
+        <p>Якщо брак стався через неправильні технічні вимоги або невірно надані лекала, <strong>відповідальність несе замовник</strong>.</p>
+    </div>
+    <p>Ми працюємо прозоро та відкрито, гарантуючи <strong>контроль якості на кожному етапі виробництва!</p>
+</div>
+
+<li class="tab-item tab-item-4">
+    <span class="arrow">
+        <img src="./JPGPNG/work_logov.svg" alt="arrow icon" />
+    </span>
+    <span class="tab-text">Як уникнути браку тканини під час виробництва одягу</span>
+</li>
+<div class="tab-content">
+        <p>Якість тканини — це основа успішного виробництва одягу. Щоб мінімізувати ризики та захистити себе від можливих дефектів, варто дотримуватись кількох правил:</p>
+    <div class="tab-fourth-container">
+        <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Перевірка постачальника — обирайте надійних виробників тканин, запитуйте <strong>сертифікати якості</strong> та <strong>зразки</strong> перед замовленням.</p>
+        <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Тестування перед пошиттям — перевіряйте тканину на <strong>усадку, стійкість кольору</strong> та <strong>еластичність</strong>.</p>
+        <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Візуальний огляд — ретельно оглядайте рулони тканини на наявність <strong>плям</strong>, <strong>затяжок</strong>, <strong>розривів</strong> чи інших дефектів.</p>
+        <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Правильне зберігання — дотримуйтеся <strong>оптимальних умов вологості</strong> та <strong>температури</strong>, щоб тканина не втрачала своїх властивостей.</p>
+        <p><img src="./JPGPNG/right_arrom.svg" alt="right_arrow"> Умови повернення — <strong>заздалегідь</strong> узгоджуйте з постачальником можливість повернення або заміни тканини у разі виявлення браку.</p>
+    </div>
+    <p>Дотримуючись цих рекомендацій, ви зможете уникнути фінансових втрат та забезпечити високу якість готової продукції.</p>
+</div>
+
+<li class="tab-item tab-item-5">
+    <span class="arrow">
+        <img src="./JPGPNG/work_logov.svg" alt="arrow icon" />
+    </span>
+    <span class="tab-text">Терміни виконання</span>
+</li>
+<div class="tab-content">
+    <div class="tab-fifth-container">
+        <p>Виготовлення тестового зразка – <strong>5-10 робочих днів.</strong></p>
+        <p>Серійне виробництво <strong>10 – 30 робочих днів,</strong> залежно від складності та обсягу замовлення.</p>
+        <p>Мінімальне замовлення обговорюється <strong>індивідуально.</strong></p>
+        <p>Зворотній відлік розпочнеться тоді, коли <strong>всі матеріали і зразок</strong> будуть у нас <strong>на виробництві.</strong></p>
+        <p>Ми не чарівники, але дуже стараємось!</p>
+        <p>Термінові замовлення – <strong>за погодженням.</strong> Остаточні терміни узгоджуються індивідуально після затвердження всіх деталей.</p>
+    </div>
+</div>
+
+<li class="fake-li">
+    <span class="tab-text-bottom"></span>
+</li>
+</ul>
+
+
+</div>
+</section>
+
+<section class="price-section">
+  <div class="main-price-container">
+    <div class="left-price-container">
+      <h2 class="price-title">Ціни</h2>
+    </div>
+
+    <div class="right-price-container">
+      <div class="price-table-wrap" id="priceWrap">
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th class="th-right-bottom-border-dashed">ВИРІБ</th>
+              <th class="th-right-border-dashed">ЛЕКАЛА</th>
+              <th class="th-right-border-dashed">ЗРАЗОК</th>
+              <th class="th-right-border-dashed">ОПТ ВІД 20<br>ОДИНИЦЬ</th>
+              <th>ОПТ ВІД 200<br>ОДИНИЦЬ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="th-down-border-dashed">ФУТБОЛКА / ТОП</td><td class="td-border">від 1000 грн</td><td class="td-border">від 850 грн</td><td class="td-border">від 450 грн</td><td class="td-right-border">від 340 грн</td></tr>
+            <tr><td class="th-down-border-dashed">ХУДІ</td><td class="td-border">від 1400 грн</td><td class="td-border">від 1200 грн</td><td class="td-border">від 525 грн</td><td class="td-right-border">від 375 грн</td></tr>
+            <tr><td class="th-down-border-dashed">СВІТШОТ</td><td class="td-border">від 1300 грн</td><td class="td-border">від 970 грн</td><td class="td-border">від 470 грн</td><td class="td-right-border">від 325 грн</td></tr>
+            <tr><td class="th-down-border-dashed">ШТАНИ ТРИКОТАЖ</td><td class="td-border">від 1200 грн</td><td class="td-border">від 920 грн</td><td class="td-border">від 430 грн</td><td class="td-right-border">від 310 грн</td></tr>
+            <tr><td class="th-down-border-dashed">СПІДНИЦЯ</td><td class="td-border">від 900 грн</td><td class="td-border">від 1750 грн</td><td class="td-border">від 640 грн</td><td class="td-right-border">від 420 грн</td></tr>
+            <tr><td class="th-down-border-dashed">ПІДЖАК</td><td class="td-border">від 2500 грн</td><td class="td-border">від 3250 грн</td><td class="td-border">від 1470 грн</td><td class="td-right-border">від 1010 грн</td></tr>
+
+
+            <tr><td class="th-down-border-dashed">СУКНЯ</td><td class="td-border">від 1500 грн</td><td class="td-border">від 1850 грн</td><td class="td-border">від 750 грн</td><td class="td-right-border">від 520 грн</td></tr>
+
+
+            <tr><td class="th-down-border-dashed">СОРОЧКА ЖІНОЧА</td><td class="td-border">від 1600 грн</td><td class="td-border">від 1750 грн</td><td class="td-border">від 680 грн</td><td class="td-right-border">від 420 грн</td></tr>
+            <tr><td class="th-down-border-dashed">БРЮКИ</td><td class="td-border">від 1500 грн</td><td class="td-border">від 1850 грн</td><td class="td-border">від 850 грн</td><td class="td-right-border">від 620 грн</td></tr>
+            <tr><td class="th-down-border-dashed">ТРЕНЧ</td><td class="td-border">від 2100 грн</td><td class="td-border">від 3100 грн</td><td class="td-border">від 1200 грн</td><td class="td-right-border">від 850 грн</td></tr>
+            <tr><td class="th-down-border-dashed">ПАЛЬТО</td><td class="td-border">від 2500 грн</td><td class="td-border">від 6500 грн</td><td class="td-border">від 2300 грн</td><td class="td-right-border">від 1600 грн</td></tr>
+
+
+            <tr><td>БОДІ</td><td class="td-bottom-border">від 1300 грн</td><td class="td-bottom-border">від 1300 грн</td><td class="td-bottom-border">від 450 грн</td><td>від 320 грн</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <button class="price-more-btn" id="priceToggleBtn">ПОКАЗАТИ ВСІ ЦІНИ</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-section">
+    <div class="left-footer-info">
+        <div class="up-footer-text">
+            <h2>Готові запустити круту колекцію?</h2>
+            <p>Ми вже розігріли швейні машинки!</p>
+        </div>
+        <div class="down-footer-text">
+            <div class="footer-first-info">
+                <p>Адреса: м.Дніпро,</p>
+                <p>вул.Святослава Хороброго ,22;офіс 202</p>
+                <p>+380 (93) 811 40 24</p>
+                <p>+380 (93) 795 38 53</p>
+            </div>
+            <div class="footer-second-info">
+                <p>Пн-Пт: 09:00 - 18:00</p>
+                <p>Сб-Нд: вихідний</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="center-footer-info">
+        <div class="footer-button">
+        <img src="./JPGPNG/footer-button.svg" alt="Заповнити форму">
+        </div>
+        <div class="footer-links">
+            <nav class="footer-anchor">
+                <a href="#">хто ми</a>
+                <a href="#">послуги</a>
+                <a href="#">ціни</a>
+                <a href="#">умови</a>
+                <a href="#">контакти</a>
+            </nav>
+            <a class="instagram-link" href="https://www.instagram.com/clothing_industry_dp/?igsh=MXJudnh3djduYnIybw%3D%3D&utm_source=qr#">Instagram</a>
+        </div>
+    </div>
+</footer>
+</div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
