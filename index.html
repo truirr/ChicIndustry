@@ -22,24 +22,27 @@
       <span class="modal__dash" aria-hidden="true"></span>
     </div>
 
-    <form class="modal__form">
-      <div class="modal__group">
-        <label class="modal__label" id="modalTitle">ВАШЕ ІМ’Я</label>
-        <input class="modal__input" type="text" placeholder="Введіть Ваше повне ім’я">
-      </div>
-
-      <div class="modal__group">
-        <label class="modal__label">ТЕЛЕФОН / E-MAIL</label>
-        <input class="modal__input" type="text" placeholder="Введіть Ваш номер телефона або e-mail">
-      </div>
-
-      <div class="modal__group">
-        <label class="modal__label">ПОВІДОМЛЕННЯ</label>
-        <textarea class="modal__input modal__input--area" placeholder="Введіть Ваше питання або пропозицію..."></textarea>
-      </div>
-
-      <button class="modal__btn" type="button">НАДІСЛАТИ</button>
-    </form>
+    <form class="modal__form" id="contactForm">
+        <div class="modal__group">
+          <label class="modal__label" id="modalTitle">ВАШЕ ІМ’Я</label>
+          <input class="modal__input" type="text" name="name" placeholder="Введіть Ваше повне ім’я" required>
+        </div>
+      
+        <div class="modal__group">
+          <label class="modal__label">ТЕЛЕФОН / E-MAIL</label>
+          <input class="modal__input" type="text" name="email" placeholder="Введіть Ваш номер телефона або e-mail" required>
+        </div>
+      
+        <div class="modal__group">
+          <label class="modal__label">ПОВІДОМЛЕННЯ</label>
+          <textarea class="modal__input modal__input--area" name="message" placeholder="Введіть Ваше питання або пропозицію..." required></textarea>
+        </div>
+      
+        <!-- honeypot для антиспама -->
+        <input type="text" name="company" style="display:none">
+      
+        <button class="modal__btn" type="submit">НАДІСЛАТИ</button>
+      </form>
   </div>
 </div>
 
